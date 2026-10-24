@@ -1,8 +1,6 @@
 """scikit-learn models and the deterministic analysis the agents reason over.
-
 Design principle: all numbers (forecasts, waste, savings) are computed here,
-in code. The LLM agents only interpret and act on these numbers, they never
-invent them.
+in code. The LLM agents only interpret and act on these numbers.
 """
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -114,7 +112,7 @@ def load(path: Path = MODEL_PATH) -> Artifacts | None:
     return joblib.load(path) if Path(path).exists() else None
 
 
-# Plain-English names for the three savings opportunities.
+# names for the three savings opportunities.
 OPP_CLOSED = "Switch off machines when the plant is closed"
 OPP_SPIKES = "Investigate unusual spikes"
 OPP_SHIFT = "Run heavy jobs in cheaper hours"

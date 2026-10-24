@@ -35,7 +35,7 @@ FORECAST_FEATURES = [
     "lag_96_win", "lag_672_win", "prev_week_same_slot_mean", "hour_x_dow",
 ]
 
-# Plain-English names, used in the app and in what the agents read.
+# names used in the app and in what the agents read
 FEATURE_NAMES = {
     "hour": "hour of the day",
     "minute": "minute of the hour",
