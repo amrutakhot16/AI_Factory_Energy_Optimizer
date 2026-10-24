@@ -6,7 +6,7 @@ Built with Python, scikit-learn, Groq-hosted LLMs and Streamlit.
 
 ---
 
-## The problem, in plain words
+## The problem
 
 A factory gets one electricity bill a month. It can't see where or when electricity was wasted: machines left on over the weekend, sudden unexplained spikes, or heavy work done when electricity is most expensive. Managers don't have time to dig through meter data.
 
