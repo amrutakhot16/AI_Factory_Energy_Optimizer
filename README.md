@@ -68,8 +68,8 @@ Electricity prices ($0.18 peak, $0.09 off-peak per kWh) and the savings assumpti
 ## Quick start
 
 ```bash
-git clone https://github.com/amrutakhot16/Factory_Energy_Optimizer.git
-cd Factory_Energy_Optimizer
+git clone https://github.com/amrutakhot16/AI_Factory_Energy_Optimizer.git
+cd AI_Factory_Energy_Optimizer
 python3 -m venv .venv && source .venv/bin/activate    # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python train.py                  # trains the two models (about 15 seconds)
