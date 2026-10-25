@@ -97,7 +97,7 @@ Deployed free on Streamlit Community Cloud. To deploy your own copy, add `GROQ_A
 │   ├── ml.py         The models and the savings calculations
 │   └── agents.py     The 4 agents, the number check and the orchestrator
 ├── data/             Steel_industry_data.csv
-└── docs/             Interview guide
+└── docs/screenshots/  App screenshots
 ```
 
 ## Limitations and next steps
