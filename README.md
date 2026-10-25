@@ -4,6 +4,8 @@ Finds where a steel plant wastes electricity, then uses 4 AI agents to explain i
 
 Built with Python, scikit-learn, Groq-hosted LLMs and Streamlit.
 
+![AI agent team and action plan](docs/screenshots/screenshot.png)
+
 ---
 
 ## The problem
@@ -62,6 +64,8 @@ The model's error is 27% lower than copying yesterday's value.
 | **Total** | **$7,625** | **23.3** |
 
 Example: on **Sunday 4 Nov 2018**, 13:30–16:15, with the plant closed, it used **994 kWh** when about **50 kWh** was expected.
+
+![Usage and waste dashboard](docs/screenshots/screenshot_usage.png)
 
 Electricity prices ($0.18 peak, $0.09 off-peak per kWh) and the savings assumptions are illustrative and adjustable in the sidebar. CO₂ uses the dataset's own figures (about 0.42 kg per kWh).
 
